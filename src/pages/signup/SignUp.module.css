@@ -1,0 +1,134 @@
+.signUp {
+    display: flex;
+    width: 1170px;
+    margin: 60px 0 0;
+    justify-content: space-between;
+}
+
+.signUpFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 370px;
+}
+
+.signUpImage {
+    width: 700px;
+}
+
+.signUpFormTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin: 0;
+    align-self: flex-start;
+}
+
+.signUpFormDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 24px 0 0;
+    align-self: flex-start;
+}
+
+.signUpFormInput {
+    padding: 8px 0;
+    margin: 26px 0 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(0, 0, 0, 0.4);
+    width: 370px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.signUpFormButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 122px;
+    gap: 10px;
+    width: 371px;
+    height: 56px;
+    background: #DB4444;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin: 40px 0 0;
+}
+
+.signUpFormButtonGoogle {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 16px 40px;
+    gap: 10px;
+    width: 371px;
+    height: 56px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    margin: 16px 0 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.signUpFormButtonGoogle::before {
+    content: '';
+    position: absolute;
+    background-image: url('/assets/images/google-icon.png');
+    width: 24px;
+    height: 24px;
+    left: 22%;
+    top: 30%;
+    z-index: 1;
+}
+
+.refToLogin {
+    align-self: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(0, 0, 0, 0.7);
+    margin: 34px 0 0;
+}
+
+.refToLoginLink {
+    display: inline-block;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.7);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(0, 0, 0, 0.7);
+    text-decoration: none;
+    margin: 0 0 0 16px;
+
+}

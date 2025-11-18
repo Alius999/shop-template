@@ -1,0 +1,59 @@
+.categories {
+    margin: 70px 0 0;
+}
+
+.categoriesContainer {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+    padding-bottom: 70px;
+}
+
+.itemButton {
+    width: 170px;
+    height: 145px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    background: #ffffff;
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+.itemName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 16px 0 0;
+}
+
+.itemButton.selected {
+    background-color: #DB4444; /* красный фон */
+    color: white;
+}
+
+.itemButton.selected svg {
+    color: white; /* белая иконка */
+}
+
+.itemButton.selected p {
+    color: white;
+}
+
+.lastAmazingGoods {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.lastAmazingGoodsTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    margin: 60px 0 35px;
+}

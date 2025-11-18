@@ -1,0 +1,87 @@
+.saleBanner {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin: 140px 0 0;
+    width: 100%;
+    height: 500px;
+    padding: 70px 60px 60px;
+    box-sizing: border-box;
+    background: #000000;
+}
+
+.saleBannerTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FF66;
+    margin: 0;
+}
+
+.saleBannerHeader {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+    color: #FAFAFA;
+    margin: 34px 0;
+    width: 450px;
+}
+
+.saleBannerCounter {
+    display: flex; 
+    height: 62px; 
+}
+
+.saleBannerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 171px;
+    height: 56px;
+    left: 56px;
+    top: 375px;
+    background: #00FF66;
+    border-radius: 4px;
+    margin: 40px 0 0;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.saleBannerImageWrapper {
+    align-self: center;
+    justify-self: center;
+}
+
+.saleBannerImageWrapper img {
+    position: relative;
+    z-index: 1;
+}
+
+.saleBannerImageWrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-20%, 0);
+    width: 504px;
+    height: 500px;
+    background: #d9d9d9;
+    opacity: 0.3;
+    filter: blur(100px);
+    z-index: 0;
+}
+

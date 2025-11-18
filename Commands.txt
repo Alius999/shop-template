@@ -1,0 +1,3 @@
+localStorage.removeItem('favorites-items'); location.reload();
+
+localStorage.removeItem('cart-items'); location.reload();

@@ -1,0 +1,126 @@
+.contactsPage {
+    width: 1170px;
+    margin: 80px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contactsContainer {
+    box-sizing: border-box;
+    padding: 40px 35px 51px;
+    max-width: 340px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.contactsTelInfo {
+    padding: 0 0 32px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.contactsTelHeader,
+.contactsEmailHeader {
+    display: flex;
+    align-items: center;
+    margin: 0 0 24px;
+}
+
+.contactsEmailHeader {
+    margin: 32px 0 24px;
+}
+
+.contactsTelHeader p,
+.contactsEmailHeader p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 0 0 16px;
+}
+
+.contactsText,
+.contactsPhone,
+.contactsEmails,
+.contactsPhone a,
+.contactsEmails a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.contactsText {
+    margin: 0 0 16px;
+}
+
+.contactsPhone {
+    margin: 0;
+}
+
+.contactsEmails {
+    margin: 0 0 16px;
+}
+
+.contactsEmails:last-child {
+    margin: 0;
+}
+
+/* Форма */
+
+.contactsFormWrapper {
+    width: 800px;
+}
+
+.contactsForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 32px 16px;
+    padding: 40px 31px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.contactsForm input,
+.contactsForm textarea {
+    box-sizing: border-box;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    padding: 13px 16px;
+}
+
+.contactsForm input {
+    width: auto;
+    height: 50px;
+}
+
+.contactsForm textarea {
+    grid-column: 1 / 4;
+    height: 207px;
+}
+
+.contactsFormButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: end;
+    grid-column: 1 / 4;
+    width: 215px;
+    height: 56px;
+    background: #db4444;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}

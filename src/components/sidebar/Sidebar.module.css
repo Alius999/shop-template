@@ -1,0 +1,97 @@
+.sidebar {
+    border-right: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.sidebarList {
+    list-style: none;
+    margin: 40px 24px 0 0;
+}
+
+.sidebarElement {
+    position: relative;
+    margin: 0 0 16px 0;
+}
+
+.sidebarElement:last-child {
+    margin: 0;
+}
+
+.sidebarButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    width: 100%;
+}
+
+/* .sidebarButton svg {
+    margin-left: auto;
+} */
+
+.SidebarLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.submenu {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    flex-direction: column;
+    position: absolute;
+    left: 105%;
+    top: 0;
+    list-style: none;
+    padding: 24px 0 14px 32px;
+    box-sizing: border-box;
+    width: 207px;
+    background: #ededed;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.submenuElement {
+    margin: 0 0 16px 0;
+}
+
+.submenuLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.submenuVisible {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+}
+

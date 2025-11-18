@@ -1,0 +1,49 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 892px;
+    height: 344px;
+    margin: 40px 0 0 45px;
+}
+
+.carouselContainer {
+    display: flex;
+}
+
+.carouselItem {
+    flex: 0 0 100%;
+}
+
+.carouselItem img {
+    width: 892px;
+    height: 344px;
+    object-fit: cover;
+    display: block; 
+}
+
+.dots {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: flex; 
+    gap: 12px;
+}
+
+.dot {
+    width: 12px; 
+    height:12px; 
+    border: 0; 
+    border-radius: 6px; 
+    background: #808080;
+    cursor: pointer;
+}
+
+.dot[aria-current="true"] { 
+    background: #ff4a69;
+    border: 2px solid #ffffff;
+    padding: 0;
+    margin: 0;
+}
+

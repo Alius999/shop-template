@@ -1,0 +1,90 @@
+.productItem {
+    position: relative;
+}
+
+.itemImage {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 250px;
+    background: #F5F5F5;
+    overflow: hidden;
+}
+
+.cartPlate {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 41px;
+    background: #000000;
+    z-index: 1;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    bottom: -41px;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.itemImage:hover .cartPlate {
+    bottom: 0;
+}
+
+.itemName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 16px 0 8px;
+}
+
+.itemPriceContainer {
+    display: flex;
+    gap: 12px;
+    margin: 0 0 8px;
+}
+
+.itemPrice {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DB4444;
+    margin: 0;
+}
+
+.itemOldPrice {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: rgb(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.removeItem {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: none;
+}

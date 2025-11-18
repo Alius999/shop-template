@@ -1,0 +1,30 @@
+.itemRating {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 0;
+}
+
+.itemReviewsCount {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.starsIcon {
+    color: #e5e7eb; 
+    display: block;
+}
+
+.starsOverlayIcon {
+    position: absolute;
+    left: 0; top: 0;
+    color: #ffad33;
+    display: block;
+    clip-path: inset(0 calc(100% - var(--starsFill, 0%)) 0 0);
+}

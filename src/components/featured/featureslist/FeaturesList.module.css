@@ -1,0 +1,44 @@
+.featuresContainer {
+    margin: 140px 0 0;
+}
+
+.featuresList {
+    display: flex;
+    justify-content: space-between;
+    width: 943px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.featuresListItem {
+    padding: 0;
+    margin: 0;
+}
+
+.featuresListIcon {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.featuresItemTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin: 24px 0 8px;
+}
+
+.featuresItemDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}

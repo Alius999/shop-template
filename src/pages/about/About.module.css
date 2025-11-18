@@ -1,0 +1,186 @@
+.about {
+    width: 1170px;
+    margin: 143px 0 0;
+}
+
+.aboutContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.aboutContent {
+    display: grid;
+    width: 525px;
+}
+
+.aboutTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: justify;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin: 0 0 40px;
+}
+
+.aboutDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin: 0;
+}
+
+.aboutImage {
+    position: relative;
+    left: 135px;
+}
+
+/* About Fatures */
+
+.aboutFeaturesList {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 140px 0 0;
+    padding: 0;
+}
+
+.aboutFeaturesItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 230px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.aboutFeaturesItemNumbers {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin: 24px 0 0;
+}
+
+.aboutFeaturesItemText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 10px 0 0;
+}
+
+.aboutFeaturesItem:nth-child(2) {
+    background: #db4444;
+}
+
+.aboutFeaturesItem:nth-child(2) .aboutFeaturesItemNumbers {
+    color: #fafafa;
+}
+
+.aboutFeaturesItem:nth-child(2) .aboutFeaturesItemText {
+    color: #fafafa;
+}
+
+.aboutPersonsContainer {
+    margin: 140px 0 0;
+    overflow: hidden;
+}
+
+.aboutPersonsList {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.aboutPersonsImgWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    background-color: #f5f5f5;
+}
+
+.aboutPersonsItemName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    color: #000000;
+    margin: 32px 0 8px;
+}
+
+.aboutPersonsDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+.aboutPersonsPagination {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0;
+}
+
+.aboutPersonsPaginationItem {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.aboutPersonsPaginationItem:hover {
+    cursor: pointer;
+}
+
+.aboutPersonsPaginationItem.active {
+    width: 12px;
+    height: 12px;
+    background-color: #db4444;
+    border-radius: 50%;
+    box-shadow:
+    0 0 0 1px #fff,       /* внутренний 1px */
+    0 0 0 3px rgb(0, 0, 0, 0.3);
+}
+
+.aboutSocialsWrapper {
+    display: flex;
+    gap: 19px;
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0;
+}
+
+.aboutSocialsLink {
+    color: #000000;
+}
+
+.aboutSocialsLink:hover svg {
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}

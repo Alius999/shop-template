@@ -1,0 +1,21 @@
+.flashSales {
+    /* display: grid; */
+    width: 1170px;
+    margin: 140px 0 0;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.flashSalesCounterContainer {
+    display: flex;
+    grid-column: 2/7;
+    grid-row: 2/3;
+}
+
+.productItemContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+

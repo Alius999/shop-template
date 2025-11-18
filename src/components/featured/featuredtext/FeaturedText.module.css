@@ -1,0 +1,35 @@
+.featuredText {
+    width: 260px;
+}
+
+.featuredTextTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FAFAFA;
+    margin: 0;
+}
+
+.featuredTextDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FAFAFA;
+    margin: 16px 0;
+}
+
+.featuredTextLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    margin: 0;
+}

@@ -1,0 +1,16 @@
+.bestSellings {
+    padding: 70px 0 0;
+}
+
+.bestSellingsTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bestSellingsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 60px 0 0;
+}

@@ -1,0 +1,33 @@
+.sectionMarker {
+    display: flex;
+    position: relative;
+    align-items: center;
+    grid-column: 1/7;
+    height: 40px;
+    margin: 0 0 var(--margin, 31px);
+}
+
+.sectionMarkerTitle {
+    /* display: block; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DB4444;
+    margin: 0;
+    padding: 0 0 0 36px;
+}
+
+.sectionMarkerTitle::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #DB4444;
+    border-radius: 4px;
+}
+

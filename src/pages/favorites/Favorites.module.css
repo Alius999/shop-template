@@ -1,0 +1,19 @@
+.favorites {
+    width: 1170px;
+    margin: 0 auto;
+ }
+
+ .favoritesList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 60px 0 0;
+ }
+
+ .favoritesRelatedItems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 60px 0 0;
+ }
+
