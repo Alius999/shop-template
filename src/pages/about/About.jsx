@@ -73,7 +73,7 @@ export default function About() {
                         offers a diverse assotment in categories ranging  from consumer.
                     </p>
                 </div>
-                <img src="/assets/images/about-girls.png" className={styles.aboutImage} alt="About" />
+                <img src="assets/images/about-girls.png" className={styles.aboutImage} alt="About" />
             </div>
             <div className={styles.aboutFeatures}>
                 <ul className={styles.aboutFeaturesList}>
@@ -136,7 +136,7 @@ export default function About() {
                 <ul className={styles.aboutPersonsList}>
                     <li className={styles.aboutPersonsItem}>
                         <span className={styles.aboutPersonsImgWrapper}>
-                            <img src="/assets/images/about-person1.png" className={styles.aboutPersonsImg} alt="About" />
+                            <img src="assets/images/about-person1.png" className={styles.aboutPersonsImg} alt="About" />
                         </span>
                         <p className={styles.aboutPersonsItemName}>John Doe</p>
                         <span className={styles.aboutPersonsDescription}>Founder & Chairman</span>
@@ -144,7 +144,7 @@ export default function About() {
                     </li>
                     <li className={styles.aboutPersonsItem}>
                         <span className={styles.aboutPersonsImgWrapper}>
-                            <img src="/assets/images/about-person2.png" className={styles.aboutPersonsImg} alt="About" />
+                            <img src="assets/images/about-person2.png" className={styles.aboutPersonsImg} alt="About" />
                         </span>
                         <p className={styles.aboutPersonsItemName}>Maria Doe</p>
                         <span className={styles.aboutPersonsDescription}>Managing Director</span>
@@ -152,7 +152,7 @@ export default function About() {
                     </li>
                     <li className={styles.aboutPersonsItem}>
                         <span className={styles.aboutPersonsImgWrapper}>
-                            <img src="/assets/images/about-person3.png" className={styles.aboutPersonsImg} alt="About" />
+                            <img src="assets/images/about-person3.png" className={styles.aboutPersonsImg} alt="About" />
                         </span>
                         <p className={styles.aboutPersonsItemName}>John Smith</p>
                         <span className={styles.aboutPersonsDescription}>Product Designer</span>
@@ -160,7 +160,7 @@ export default function About() {
                     </li>
                     <li className={styles.aboutPersonsItem}>
                         <span className={styles.aboutPersonsImgWrapper}>
-                            <img src="/assets/images/about-person1.png" className={styles.aboutPersonsImg} alt="About" />
+                            <img src="assets/images/about-person1.png" className={styles.aboutPersonsImg} alt="About" />
                         </span>
                         <p className={styles.aboutPersonsItemName}>Tom Cruise</p>
                         <span className={styles.aboutPersonsDescription}>Founder & Chairman</span>
@@ -168,7 +168,7 @@ export default function About() {
                     </li>
                     <li className={styles.aboutPersonsItem}>
                         <span className={styles.aboutPersonsImgWrapper}>
-                            <img src="/assets/images/about-person2.png" className={styles.aboutPersonsImg} alt="About" />
+                            <img src="assets/images/about-person2.png" className={styles.aboutPersonsImg} alt="About" />
                         </span>
                         <p className={styles.aboutPersonsItemName}>Emma Watson</p>
                         <span className={styles.aboutPersonsDescription}>Managing Director</span>
@@ -177,7 +177,7 @@ export default function About() {
                     </li>
                     <li className={styles.aboutPersonsItem}>
                         <span className={styles.aboutPersonsImgWrapper}>
-                            <img src="/assets/images/about-person3.png" className={styles.aboutPersonsImg} alt="About" />
+                            <img src="assets/images/about-person3.png" className={styles.aboutPersonsImg} alt="About" />
                         </span>
                         <p className={styles.aboutPersonsItemName}>Will Smith</p>
                         <span className={styles.aboutPersonsSocial}>Product Designer</span>

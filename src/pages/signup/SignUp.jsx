@@ -13,7 +13,7 @@ export default function SignUp() {
     return (
         <section className={styles.signUp}>
             <h2 hidden>Просто зарегистрируйтесь здесь!</h2>
-            <img src="/assets/images/signup-page.png" alt="Sign Up" className={styles.signUpImage} />
+            <img src="assets/images/signup-page.png" alt="Sign Up" className={styles.signUpImage} />
             <div className={styles.signUpFormContainer}>
                 <h3 className={styles.signUpFormTitle}>Create an account</h3>
                 <p className={styles.signUpFormDescription}>Enter your details below</p>

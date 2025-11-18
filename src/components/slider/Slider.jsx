@@ -20,16 +20,16 @@ export default function Slider() {
         <div className={styles.carousel} ref={emblaRef}>
             <div className={styles.carouselContainer}>
                 <div className={styles.carouselItem}>
-                    <img src='/assets/images/slider-frame-1.png'/>
+                    <img src='assets/images/slider-frame-1.png'/>
                 </div>
                 <div className={styles.carouselItem}>
-                    <img src='/assets/images/slider-frame-2.png'/>
+                    <img src='assets/images/slider-frame-2.png'/>
                 </div>
                 <div className={styles.carouselItem}>
-                    <img src='/assets/images/slider-frame-3.png'/>
+                    <img src='assets/images/slider-frame-3.png'/>
                 </div>
                 <div className={styles.carouselItem}>
-                    <img src='/assets/images/slider-frame-4.png'/>
+                    <img src='assets/images/slider-frame-4.png'/>
                 </div>
             </div>
             <div className={styles.dots}>

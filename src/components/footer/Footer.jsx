@@ -126,12 +126,12 @@ export default function Footer() {
                         <p className={styles.footerItemTextThin}>Save $3 with App New User Only</p>
                     </li>
                     <li className={styles.footerItem}>
-                        <img src="/assets/images/qr.png" alt="qr-code" className={styles.footerItemImage}/>
+                        <img src="assets/images/qr.png" alt="qr-code" className={styles.footerItemImage}/>
                         <a href="#" className={styles.footerItemAppLink}>
-                            <img src="/assets/images/google-play.png" alt="google-play" className={styles.footerItemImage}/>
+                            <img src="assets/images/google-play.png" alt="google-play" className={styles.footerItemImage}/>
                         </a>
                         <a href="#" className={styles.footerItemAppLink}>
-                            <img src="/assets/images/app-store.png" alt="app-store" className={styles.footerItemImage}/>
+                            <img src="assets/images/app-store.png" alt="app-store" className={styles.footerItemImage}/>
                         </a>
                     </li>
                     <li className={styles.footerItem}>

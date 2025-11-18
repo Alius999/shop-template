@@ -17,7 +17,7 @@ export default function SaleBanner() {
                 <button className={styles.saleBannerButton}>Buy Now!</button>
             </div>
             <div className={styles.saleBannerImageWrapper}>
-                <img src="/assets/images/products/jbl-speaker.png" alt="JBL-Speaker"/>
+                <img src="assets/images/products/jbl-speaker.png" alt="JBL-Speaker"/>
             </div>
         </section>
     )

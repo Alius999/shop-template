@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 // src/main.jsx
-import '/assets/fonts/fonts.css';
+import 'assets/fonts/fonts.css';
 import './App.css';
 
 const rootElement = document.getElementById('root');

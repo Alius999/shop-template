@@ -126,7 +126,7 @@ export default function ItemPage() {
                 <div className={styles.itemPageGallery}>
                     <div className={styles.itemGalleryButtonsWrapper}>
                         {showPrev &&<button type="button" onClick={movePrev} className={styles.galleryPrevButton}>
-                            <img src="/assets/images/arrow.png" alt="prev arrow" />
+                            <img src="assets/images/arrow.png" alt="prev arrow" />
                         </button>}
                         <div className={styles.itemGalleryPreview} ref={itemGalleryPreview}>
                             {productGallery.map((image, index) => (
@@ -136,7 +136,7 @@ export default function ItemPage() {
                             ))}
                         </div>
                         {showNext && <button type="button" onClick={moveNext} className={styles.galleryNextButton}>
-                            <img src="/assets/images/arrow.png" alt="next arrow" />
+                            <img src="assets/images/arrow.png" alt="next arrow" />
                         </button>}
                     </div>
                     <div className={styles.itemGalleryImages}>

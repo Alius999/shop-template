@@ -75,7 +75,7 @@ export default function Support() {
       <div className={styles.galleryWrapper}>
         {
         showPrev && <button className={styles.prevSlideButton} onClick={movePrev}>
-            <img src="/assets/images/arrow.png" alt="prev arrow" />
+            <img src="assets/images/arrow.png" alt="prev arrow" />
           </button>
         }
         <div className={styles.mainImageWrapper}>
@@ -103,7 +103,7 @@ export default function Support() {
         </div>
         {
         showNext && <button className={styles.nextSlideButton} onClick={moveNext} ref={nextSlideButton}>
-            <img src="/assets/images/arrow.png" alt="prev arrow" />
+            <img src="assets/images/arrow.png" alt="prev arrow" />
           </button>
         }
       </div>

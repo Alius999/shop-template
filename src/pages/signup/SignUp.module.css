@@ -100,7 +100,7 @@
 .signUpFormButtonGoogle::before {
     content: '';
     position: absolute;
-    background-image: url('/assets/images/google-icon.png');
+    background-image: url('assets/images/google-icon.png');
     width: 24px;
     height: 24px;
     left: 22%;

@@ -11,7 +11,7 @@ export default function LogIn() {
     return (
         <section className={styles.logIn}>
             <h2 hidden>Войдите в свой личный аккаунт здесь!</h2>
-            <img src="/assets/images/signup-page.png" alt="Sign Up" className={styles.logInImage} />
+            <img src="assets/images/signup-page.png" alt="Sign Up" className={styles.logInImage} />
             <div className={styles.logInFormContainer}>
                 <h3 className={styles.logInFormTitle}>Log in to Exclusive</h3>
                 <p className={styles.logInFormDescription}>Enter your details below</p>
