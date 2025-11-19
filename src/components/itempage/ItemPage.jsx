@@ -22,7 +22,7 @@ export default function ItemPage() {
             ...data,    
             id: Number(product.id),
             quantity: Number(data.quantity),
-            gallery: product.gallery.find(item => item.id === selectedColour).images
+            gallery: productGallery
         }
         console.log(fullProductData);
         toggleCartItem(fullProductData);
